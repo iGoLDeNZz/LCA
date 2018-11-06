@@ -46,10 +46,14 @@ playground.xcworkspace
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
+<<<<<<< HEAD
  Pods/
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
+=======
+Pods/
+>>>>>>> 494099f809526944e9f6baaa230982d46f7eacaf
 
 # Carthage
 #
@@ -69,6 +73,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+<<<<<<< HEAD
 
 # Code Injection
 #
@@ -76,3 +81,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+=======
+>>>>>>> 494099f809526944e9f6baaa230982d46f7eacaf
