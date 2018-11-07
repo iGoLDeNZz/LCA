@@ -65,7 +65,7 @@ class homeVC: UIViewController {
     }
     @IBAction func profileBtnPressed(_ sender: Any) {
         hideMenu()
-        if UserDefaults.standard.bool(forKey: "logedInFK"){
+        if true {//UserDefaults.standard.bool(forKey: "logedInFK")
             self.performSegue(withIdentifier: "profileVC", sender: nil )
         }else{
             self.performSegue(withIdentifier: "loginVC", sender: nil)
